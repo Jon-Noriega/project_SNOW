@@ -1,0 +1,204 @@
+.site-title {
+    color: rgb(2, 41, 216);
+    font-size: xx-large;
+    font-family: 'Roboto', sans-serif;
+    padding: 30px 0px 0px;
+    font-weight: bolder;
+}
+
+
+body {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.community-section-title {
+    color: rgb(61, 61, 61);
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+    padding: 30px 0px 0px;
+    font-weight: bolder;
+}
+
+.toggle-view-button {
+    background-color: rgb(2, 41, 216);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    /* border-radius: 50px; */
+    /* box-shadow: rgb(0, 0, 0, 0.2) */
+}
+
+.hide{
+    display: none
+}
+
+.resort-pass-headers {
+    background-color: rgb(2, 41, 216);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    border-color: white;
+    border-radius: 100px;
+    box-shadow: rgb(0, 0, 0, 0.2);
+}
+
+.member-pass-headers {
+    background-color: rgb(2, 41, 216);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    border-color: white;
+    border-radius: 100px;
+    box-shadow: rgb(0, 0, 0, 0.2);
+}
+
+/* .outer-resort-card-divs {
+    display: inline-block;
+} */
+
+.inner-resort-card-divs {
+    position: relative;
+    width: 335px;
+    height: 400px;
+    transition: transform 1.8s;
+    transform-style: preserve-3d;
+    margin-top: 21px;
+    margin-bottom: 21px;
+    margin-right: 21px;
+    margin-left: 21px;
+}
+
+.front-resort-card-divs, .back-resort-card-divs {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    backface-visibility: hidden;
+    margin-top: 21px;
+    margin-bottom: 21px;
+    margin-right: 21px;
+    margin-left: 21px;
+}
+
+.back-resort-card-divs {
+    transform: rotateY(180deg);
+}
+
+.outer-resort-card-divs.reverse .inner-resort-card-divs {
+    transform: rotateY(180deg);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: rgb(2, 41, 216);
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px 10px 50px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.front-resort-card-divs {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    text-align: center;
+    width: 335px;
+    height: 400px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px 10px 50px 10px;
+}
+
+.front-resort-card-divs:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.05);
+    transition: 0.8s;
+}
+
+/* .outer-resort-card-divs {
+    display: inline-block;
+} */
+
+.inner-member-card-divs {
+    position: relative;
+    width: 335px;
+    height: 400px;
+    transition: transform 1.8s;
+    transform-style: preserve-3d;
+    margin-top: 21px;
+    margin-bottom: 21px;
+    margin-right: 21px;
+    margin-left: 21px;
+}
+
+.front-member-card-divs, .back-member-card-divs {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    backface-visibility: hidden;
+    margin-top: 21px;
+    margin-bottom: 21px;
+    margin-right: 21px;
+    margin-left: 21px;
+}
+
+.back-member-card-divs {
+    transform: rotateY(180deg);
+}
+
+.outer-member-card-divs.reverse .inner-member-card-divs {
+    transform: rotateY(180deg);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: rgb(2, 41, 216);
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px 10px 50px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.front-member-card-divs {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    text-align: center;
+    width: 335px;
+    height: 400px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px 10px 50px 10px;
+}
+
+.front-member-card-divs:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.05);
+    transition: 0.8s;
+}
+
+.resort-card-images {
+    max-width: 150px;
+    max-height: 125px;
+    margin: auto;
+    text-align: center;
+}
+
+.member-card-images {
+    max-width: 150px;
+    max-height: 125px;
+    margin: auto;
+    text-align: center;
+}
+
+/* .resort-info {
+    font-family: 'Roboto', sans-serif;
+    justify-self: flex-end;
+} */
