@@ -1,20 +1,26 @@
-const baseURL = "http://localhost:3000"
 
+const baseURL = "http://localhost:3000"
 const membersURL = `${baseURL}/members`
 const portfoliosURL = `${baseURL}/portfolios`
 const passesURL = `${baseURL}/passes`
 const resortsURL = `${baseURL}/resorts`
 
+const nightsWatchResortContainer = document.querySelector(".nights-watch-resort-container")
+const nightsWatchResortHeader = document.createElement("h1")
+nightsWatchResortHeader.textContent = "Ski with Friends: Invites"
+nightsWatchResortHeader.className = "nights-watch-resort-header"
+nightsWatchResortContainer.appendChild(nightsWatchResortHeader)
+
 
 const toggleViewButton = document.querySelector(".toggle-view-button")
 
 toggleViewButton.addEventListener("click", () => {
-
-    let resortsContainer = document.querySelector(".resorts-container")
+    
     let membersContainer = document.querySelector(".members-container")
-
-    resortsContainer.classList.toggle("hide")
+    let resortsContainer = document.querySelector(".resorts-container")
+    
     membersContainer.classList.toggle("hide")
+    resortsContainer.classList.toggle("hide")
 })
 
 
@@ -30,12 +36,13 @@ function getResorts() {
             // console.log(portfolio.resorts)
             
             const passHeader = document.createElement("h1")
-            passHeader.textContent = portfolio.name
+            passHeader.textContent = `${portfolio.name} Pass`
             passHeader.className = "resort-pass-headers"
             resortContainer.appendChild(passHeader)
             
             portfolio.resorts.forEach(resort => {
                 
+                const reservationCalendar = document.createElement("input")
                 const resortCardOuter = document.createElement("div")
                 const resortCardInner = document.createElement("div")
                 const resortCardFront = document.createElement("div")
@@ -43,32 +50,54 @@ function getResorts() {
                 const resortBackTesting = document.createElement("h2")
                 const resortName = document.createElement("h2")
                 const resortImage = document.createElement("img")
-                const resortSlogan = document.createElement("h3")
+                const resortSlogan = document.createElement("h4")
                 
+                reservationCalendar.className = "datetime"
+                reservationCalendar.placeholder = "Select reservation date"
                 resortCardOuter.className = "outer-resort-card-divs"
                 resortCardInner.className = "inner-resort-card-divs"
                 resortCardFront.className = "front-resort-card-divs"
                 resortCardBack.className = "back-resort-card-divs"
                 resortBackTesting.textContent = resort.name
+                resortBackTesting.className = "resort-back-header"
                 resortName.textContent = resort.name
+                resortName.className = "resort-front-header"
                 resortImage.src = resort.image
                 resortImage.className = "resort-card-images"
                 resortSlogan.textContent = resort.slogan
+                resortSlogan.className = "resort-slogan"
                 
-                resortContainer.appendChild(resortCardOuter)
-                resortCardOuter.appendChild(resortCardInner)
+                resortContainer.append(resortCardOuter)
+                resortCardOuter.append(resortCardInner)
                 resortCardInner.append(resortCardFront, resortCardBack)
                 resortCardFront.append(resortName, resortImage, resortSlogan)
-                resortCardBack.appendChild(resortBackTesting)
+                resortCardBack.append(resortBackTesting, reservationCalendar)
+                mobiscroll.datetime('.datetime')
                 
                 resortCardOuter.addEventListener("click", event => {
                     resortCardOuter.classList.toggle("reverse")
-                    
+                
+                reservationCalendar.addEventListener("click", () => selectedResort(resortCardOuter))
+
                 })
             })
         })
     })
 }
+
+function selectedResort(resortCardOuter) {
+
+    const selectedResortUL = document.createElement("ul")
+    const selectedResortLI = document.createElement("li")
+    
+    selectedResortLI.className = "selected-resort"
+
+    nightsWatchResortContainer.append(selectedResortUL)
+    selectedResortUL.appendChild(selectedResortLI)
+    selectedResortLI.appendChild(resortCardOuter)
+    
+}
+
 
 function getMembers() {
     
@@ -81,7 +110,7 @@ function getMembers() {
             const memberContainer = document.querySelector(`.${portfolio.name}-member-cards-container`)
             
             const passHeader = document.createElement("h1")
-            passHeader.textContent = portfolio.name
+            passHeader.textContent = `${portfolio.name} Pass`
             passHeader.className = "member-pass-headers"
             memberContainer.appendChild(passHeader)
             
@@ -94,34 +123,58 @@ function getMembers() {
                 const memberBackTesting = document.createElement("h2")
                 const memberName = document.createElement("h2")
                 const memberImage = document.createElement("img")
-                const memberMode = document.createElement("h3")
+                const memberMode = document.createElement("h4")
+                const inviteButton = document.createElement("button")
                 
                 memberCardOuter.className = "outer-member-card-divs"
                 memberCardInner.className = "inner-member-card-divs"
                 memberCardFront.className = "front-member-card-divs"
                 memberCardBack.className = "back-member-card-divs"
                 memberBackTesting.textContent = member.name
+                memberBackTesting.className = "member-back-header"
                 memberName.textContent = member.name
+                memberName.className = "member-front-header"
                 memberImage.src = member.image
                 memberImage.className = "member-card-images"
                 memberMode.textContent = member.mode
+                memberMode.className = "member-mode"
+                inviteButton.textContent = "Invite"
+                inviteButton.className = "invite-button"
                 
-                memberContainer.appendChild(memberCardOuter)
-                memberCardOuter.appendChild(memberCardInner)
+                memberContainer.append(memberCardOuter)
+                memberCardOuter.append(memberCardInner)
                 memberCardInner.append(memberCardFront, memberCardBack)
                 memberCardFront.append(memberName, memberImage, memberMode)
-                memberCardBack.appendChild(memberBackTesting)
-
+                memberCardBack.append(memberBackTesting, inviteButton)
+                
                 memberCardOuter.addEventListener("click", event => {
                     memberCardOuter.classList.toggle("reverse")
+
+                inviteButton.addEventListener("click", () => nightsWatch(memberCardOuter))
+
                 })
             })
         })
     })
 }
 
-getResorts()
+
+function nightsWatch(memberCardOuter) {
+    
+    const nightWatch = document.createElement("ul")
+    const watchMember = document.createElement("li")
+
+    nightWatch.className = "nights-watch"
+    watchMember.className = "watch-member"
+    
+    nightsWatchResortContainer.append(nightWatch)
+    nightWatch.appendChild(watchMember)
+    watchMember.appendChild(memberCardOuter)
+
+}
+
 getMembers()
+getResorts()
 
 
 // const memberContainer = document.querySelector(".member-cards-container")

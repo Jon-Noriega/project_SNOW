@@ -4,8 +4,22 @@
     font-family: 'Roboto', sans-serif;
     padding: 30px 0px 0px;
     font-weight: bolder;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
 }
 
+/* .datetime {
+    border: none;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    color: rgb(44, 81, 248);
+    border-radius: 10px;
+    box-shadow: rgb(0, 0, 0, 0.2);
+} */
 
 body {
     background-color: whitesmoke;
@@ -18,14 +32,39 @@ body {
     font-family: 'Roboto', sans-serif;
     padding: 30px 0px 0px;
     font-weight: bolder;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 20px;
 }
 
 .toggle-view-button {
-    background-color: rgb(2, 41, 216);
+    border: none;
+    background-color: rgb(44, 81, 248);
     font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
     color: white;
-    /* border-radius: 50px; */
-    /* box-shadow: rgb(0, 0, 0, 0.2) */
+    border-radius: 10px;
+    box-shadow: rgb(0, 0, 0, 0.2);
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+}
+
+.toggle-button-prefix {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.line-break {
+    border: 1px solid rgb(218, 216, 216)
 }
 
 .hide{
@@ -33,23 +72,79 @@ body {
 }
 
 .resort-pass-headers {
-    background-color: rgb(2, 41, 216);
+    background-color: rgb(44, 81, 248);
     text-align: center;
     font-family: 'Roboto', sans-serif;
     color: white;
-    border-color: white;
-    border-radius: 100px;
-    box-shadow: rgb(0, 0, 0, 0.2);
+    border-radius: 20px;
+    box-shadow: 8px 8px 2px 8px rgba(0, 0, 255, 0.2);
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 .member-pass-headers {
-    background-color: rgb(2, 41, 216);
+    background-color: rgb(44, 81, 248);
     text-align: center;
     font-family: 'Roboto', sans-serif;
     color: white;
-    border-color: white;
-    border-radius: 100px;
-    box-shadow: rgb(0, 0, 0, 0.2);
+    border-radius: 20px;
+    box-shadow: 8px 8px 2px 8px rgba(0, 0, 255, 0.2);
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.nights-watch-resort-header {
+    background-color: rgb(44, 81, 248);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 8px 8px 2px 8px rgba(0, 0, 255, 0.2);
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+/* .nights-watch-member-header {
+    background-color: rgb(44, 81, 248);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 8px 8px 2px 8px rgba(0, 0, 255, 0.2);
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+} */
+
+.watch-member {
+    list-style-type: none;
+}
+
+.selected-resort {
+    list-style-type: none;
 }
 
 /* .outer-resort-card-divs {
@@ -62,51 +157,48 @@ body {
     height: 400px;
     transition: transform 1.8s;
     transform-style: preserve-3d;
-    margin-top: 21px;
-    margin-bottom: 21px;
-    margin-right: 21px;
-    margin-left: 21px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 .front-resort-card-divs, .back-resort-card-divs {
     position: absolute;
-    width: 100px;
-    height: 100px;
     backface-visibility: hidden;
-    margin-top: 21px;
-    margin-bottom: 21px;
-    margin-right: 21px;
-    margin-left: 21px;
 }
 
 .back-resort-card-divs {
     transform: rotateY(180deg);
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    width: 335px;
+    height: 400px;
+    background-color: rgb(44, 81, 248);
+    margin-top: 21px;
+    margin-bottom: 21px;
+    margin-right: 21px;
+    margin-left: 21px;
+    border-radius: 50px 10px 50px 10px;
 }
 
 .outer-resort-card-divs.reverse .inner-resort-card-divs {
     transform: rotateY(180deg);
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    background-color: rgb(2, 41, 216);
-    display: flex;
-    flex-direction: column;
-    border-radius: 50px 10px 50px 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .front-resort-card-divs {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     font-family: 'Roboto', sans-serif;
-    margin: auto;
     text-align: center;
     width: 335px;
     height: 400px;
     background-color: white;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-top: 21px;
+    margin-bottom: 21px;
+    margin-right: 21px;
+    margin-left: 21px;
     display: flex;
     flex-direction: column;
     border-radius: 50px 10px 50px 10px;
@@ -118,7 +210,7 @@ body {
     transition: 0.8s;
 }
 
-/* .outer-resort-card-divs {
+/* .outer-member-card-divs {
     display: inline-block;
 } */
 
@@ -128,51 +220,48 @@ body {
     height: 400px;
     transition: transform 1.8s;
     transform-style: preserve-3d;
-    margin-top: 21px;
-    margin-bottom: 21px;
-    margin-right: 21px;
-    margin-left: 21px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 .front-member-card-divs, .back-member-card-divs {
     position: absolute;
-    width: 100px;
-    height: 100px;
     backface-visibility: hidden;
-    margin-top: 21px;
-    margin-bottom: 21px;
-    margin-right: 21px;
-    margin-left: 21px;
 }
 
 .back-member-card-divs {
     transform: rotateY(180deg);
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    width: 335px;
+    height: 400px;
+    background-color: rgb(44, 81, 248);
+    margin-top: 21px;
+    margin-bottom: 21px;
+    margin-right: 21px;
+    margin-left: 21px;
+    border-radius: 50px 10px 50px 10px;
 }
 
 .outer-member-card-divs.reverse .inner-member-card-divs {
     transform: rotateY(180deg);
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    background-color: rgb(2, 41, 216);
-    display: flex;
-    flex-direction: column;
-    border-radius: 50px 10px 50px 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .front-member-card-divs {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     font-family: 'Roboto', sans-serif;
-    margin: auto;
     text-align: center;
     width: 335px;
     height: 400px;
     background-color: white;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-top: 21px;
+    margin-bottom: 21px;
+    margin-right: 21px;
+    margin-left: 21px;
     display: flex;
     flex-direction: column;
     border-radius: 50px 10px 50px 10px;
@@ -182,6 +271,18 @@ body {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     transform: scale(1.05);
     transition: 0.8s;
+}
+
+
+.invite-button {
+    border: none;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    color: rgb(44, 81, 248);
+    border-radius: 10px;
+    box-shadow: rgb(0, 0, 0, 0.2);
 }
 
 .resort-card-images {
@@ -198,7 +299,28 @@ body {
     text-align: center;
 }
 
-/* .resort-info {
-    font-family: 'Roboto', sans-serif;
-    justify-self: flex-end;
-} */
+.resort-front-header {
+    margin-top: 40px;
+}
+
+.resort-slogan {
+    margin-bottom: 40px;
+}
+
+.resort-back-header {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.member-front-header {
+    margin-top: 40px;
+}
+
+.member-mode {
+    margin-bottom: 40px;
+}
+
+.member-back-header {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
