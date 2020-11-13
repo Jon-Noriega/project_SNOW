@@ -110,7 +110,7 @@ toggleViewButton.addEventListener("click", () => {
 <h2>Status</h2>
 
 We're looking forward to rolling-out the following features:
-<li>Create a user sign-in workflow with full end-to-end user auth.</li>
+<li>A user sign-in workflow with full end-to-end user auth.</li>
 <li>Availability calendars for our community members, allowing to coordinate a ski trip based on shared availability.</li>
 <li>Full end-to-end resort reservation system with persisting of reserved dates and rendering of blackout dates.</li>
 <li>An "Accept Invite" button for community members.</li>
