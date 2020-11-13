@@ -1,12 +1,12 @@
-# skiHouse
 
 <h1>skiHouse</h1>
-An app to help you decide where to eat on a whim.
+Rally your friends, select from one of the US-Rockies' many world-reknown ski resorts, and book your priority reservation dates.
 <br></br>
 <h2>General Info</h2>
 <p>
-mysterEAT is a cutting-edge single-page web-based application that allows users to discover Denver's premier restaurants through an extensive catalog spanning your favorite cuisines. mysterEAT delivers a user experience catering to our inner spontaneity by offering users the opportunity to be surprised with a random restaurant suggestion via our mysterEAT card. Additionally, users have the ability to dynamically search through the catalog with our cuisine search algorithm. Our mission is to become your app of choice when deciding where to eat with loved ones feels like a mystery.<br>
-<br>:heart:</br>
+We are a community of skiers/snowboarders first! Secondly, we're a platform where passholders can reserve priority access at their favorite US-Rockies ski resorts. Our mission is to:
+ - Facilitate connection amongst community members of each ski pass (Ikon/Epic).
+ - Become the go-to platform for ensuring the community lock-in their priority access through our reservation system. <br>:heart:</br>
 </p>
 
 <h2>Inspiration</h2>
