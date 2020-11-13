@@ -45,7 +45,7 @@ You are now ready to start using the first iteration of skiHouse<br>
  <li>Once you have rounded out your friend group for the upcoming trip, it's now time to find a resort to ski at. Do so by clicking on the "Toggle View" button.</li>
  <li>Explore the resort community and once you're ready to reserve priority access to the resort of your choosing, click on the card to flip it over.</li>
  <li>You will now see an input area which you can click on to be taken to the reservation calendar.</li>
- <li>Select a reservation date and a reservation start time, then click "set".</li>
+ <li>Select a reservation date and a reservation start time, then click on "set".</li>
  <li>You will now see details for your upcoming Ski Day which will include your invited friends along with the reserved ski resort.</li>
 </ol>
 
