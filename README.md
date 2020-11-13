@@ -42,7 +42,7 @@ You are now ready to start using the first iteration of skiHouse<br>
 <ol>
  <li>Explore our member community, by ski pass. We ecourage you to connect with community members who may not already be 1st-degree connections. Make a new friend to ski with. Especially when they have the same pass as you. Don't let the passes restrict you either, you can always share a buddy pass with a member who has a different ski pass!</li>
  <li>Invite friends to a ski trip by flipping their card and clicking on the invite button.</li>
- <li>Once you have rounded out your friend group for the upcoming trip, it's now time to find a resort to ski at. Do so by clicking on the toggle button.</li>
+ <li>Once you have rounded out your friend group for the upcoming trip, it's now time to find a resort to ski at. Do so by clicking on the "Toggle View" button.</li>
  <li>Explore the resort community and once you're ready to reserve priority access to the resort of your choosing, click on the card to flip it over.</li>
  <li>You will now see an input area which you can click on to be taken to the reservation calendar.</li>
  <li>Select a reservation date and a reservation start time, then click "set".</li>
