@@ -49,6 +49,10 @@ You are now ready to start using the first iteration of mysterEAT!<br>
  <li>Interested in a different cuisine? Try searching for a new one in the top right or simply click on our logo to return to the main catalog.</li>
 </ol>
 
+<h2>Code Examples</h2>
+
+<h4>Randomize Function:</h4>
+
 <h2>Status</h2>
 
 We're looking forward to rolling-out the following features:
