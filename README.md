@@ -9,6 +9,7 @@ We are a community of skiers/snowboarders first! Secondly, we're a platform wher
 <ul>
  <li>Facilitate connection amongst community members of each ski pass (Ikon/Epic)</li>
  <li>Become the go-to platform for ensuring the community lock-in their priority access through our reservation system.</li>
+ 
 <br>:blue_heart:</br>
 </p>
 
