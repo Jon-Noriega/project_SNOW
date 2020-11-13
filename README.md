@@ -51,7 +51,7 @@ You are now ready to start using the first iteration of skiHouse<br>
 
 <h2>Code Examples</h2>
 
-<h4>Randomize Function:</h4>
+<h4>Card Flipping:</h4>
 
 ```
 .inner-resort-card-divs {
@@ -90,6 +90,21 @@ You are now ready to start using the first iteration of skiHouse<br>
 .outer-resort-card-divs.reverse .inner-resort-card-divs {
     transform: rotateY(180deg);
 }
+```
+
+<h4>Toggle Communities:</h4>
+
+```
+const toggleViewButton = document.querySelector(".toggle-view-button")
+
+toggleViewButton.addEventListener("click", () => {
+    
+    let membersContainer = document.querySelector(".members-container")
+    let resortsContainer = document.querySelector(".resorts-container")
+    
+    membersContainer.classList.toggle("hide")
+    resortsContainer.classList.toggle("hide")
+})
 ```
 
 <h2>Status</h2>
