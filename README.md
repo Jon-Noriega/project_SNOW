@@ -116,7 +116,7 @@ We're looking forward to rolling-out the following features:
 <li>An "Accept Invite" button for community members.</li>
 <li>Ability to send and accept a friend requests.</li>
 <li>A "Chat with Friends" feature to assist with trip planning or just connecting.</li>
-<li>introduction of a "pass swap" feature where members can arrange to swap their passes for a period of time, granting them access to more ski resorts.</li>
+<li>Introduction of a "pass swap" feature where members can arrange to swap their passes for a period of time, granting them access to more ski resorts.</li>
 
 <h2>Contact</h2>
 <a href="https://www.linkedin.com/in/jonathannoriega/"><img src="https://user-images.githubusercontent.com/68958970/94946276-dc7b8a00-04a9-11eb-9431-366689b9fa06.png" alt="Jon Noriega" style="width:10px;height:10px;"></a>Jon Noriega :ocean:<br>
