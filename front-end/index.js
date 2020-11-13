@@ -7,9 +7,9 @@ const resortsURL = `${baseURL}/resorts`
 
 const nightsWatchResortContainer = document.querySelector(".nights-watch-resort-container")
 const nightsWatchResortHeader = document.createElement("h1")
-nightsWatchResortHeader.textContent = "Ski with Friends: Invites"
+nightsWatchResortHeader.textContent = "Ski Day: Friends and Resort"
 nightsWatchResortHeader.className = "nights-watch-resort-header"
-nightsWatchResortContainer.appendChild(nightsWatchResortHeader)
+nightsWatchResortContainer.append(nightsWatchResortHeader)
 
 
 const toggleViewButton = document.querySelector(".toggle-view-button")
@@ -38,7 +38,7 @@ function getResorts() {
             const passHeader = document.createElement("h1")
             passHeader.textContent = `${portfolio.name} Pass`
             passHeader.className = "resort-pass-headers"
-            resortContainer.appendChild(passHeader)
+            resortContainer.append(passHeader)
             
             portfolio.resorts.forEach(resort => {
                 
@@ -93,8 +93,8 @@ function selectedResort(resortCardOuter) {
     selectedResortLI.className = "selected-resort"
 
     nightsWatchResortContainer.append(selectedResortUL)
-    selectedResortUL.appendChild(selectedResortLI)
-    selectedResortLI.appendChild(resortCardOuter)
+    selectedResortUL.append(selectedResortLI)
+    selectedResortLI.append(resortCardOuter)
     
 }
 
@@ -112,7 +112,7 @@ function getMembers() {
             const passHeader = document.createElement("h1")
             passHeader.textContent = `${portfolio.name} Pass`
             passHeader.className = "member-pass-headers"
-            memberContainer.appendChild(passHeader)
+            memberContainer.append(passHeader)
             
             portfolio.members.forEach(member => {
                 
@@ -158,7 +158,6 @@ function getMembers() {
     })
 }
 
-
 function nightsWatch(memberCardOuter) {
     
     const nightWatch = document.createElement("ul")
@@ -168,8 +167,8 @@ function nightsWatch(memberCardOuter) {
     watchMember.className = "watch-member"
     
     nightsWatchResortContainer.append(nightWatch)
-    nightWatch.appendChild(watchMember)
-    watchMember.appendChild(memberCardOuter)
+    nightWatch.append(watchMember)
+    watchMember.append(memberCardOuter)
 
 }
 
