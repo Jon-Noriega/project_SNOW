@@ -56,3 +56,13 @@ You are now ready to start using the first iteration of mysterEAT!<br>
  <li>Still undecided? Allow us to help you by making a restaurant suggestion via our state-of-the-art mysterEAT feature.</li>
  <li>Interested in a different cuisine? Try searching for a new one in the top right or simply click on our logo to return to the main catalog.</li>
 </ol>
+
+<h2>Status</h2>
+
+We're looking forward to rolling-out the following features:
+<li>Create a user sign-in workflow.</li>
+<li>Ability to select your favorite restaurants.</li>
+<li>Introduce a search filter by location.</li>
+
+<h2>Contact</h2>
+<a href="https://www.linkedin.com/in/jonathannoriega/"><img src="https://user-images.githubusercontent.com/68958970/94946276-dc7b8a00-04a9-11eb-9431-366689b9fa06.png" alt="Jon Noriega" style="width:10px;height:10px;"></a>Jon Noriega :ocean:<br>
