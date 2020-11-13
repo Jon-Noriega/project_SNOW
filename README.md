@@ -7,7 +7,7 @@ We are a community of skiers/snowboarders first! Secondly, we're a platform wher
  
 Our mission is to:
 
-<li>Facilitate connection amongst community members of each ski pass (Ikon/Epic)</li>
+<li>Facilitate connection amongst community members of each ski pass (Ikon/Epic).</li>
 <li>Become the go-to platform for ensuring the community locks in their priority access through our reservation system.</li>
 </p>
 
