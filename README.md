@@ -1,6 +1,6 @@
-# project_SNOW
+# skiHouse
 
-<h1>mysterEAT</h1>
+<h1>skiHouse</h1>
 An app to help you decide where to eat on a whim.
 <br></br>
 <h2>General Info</h2>
