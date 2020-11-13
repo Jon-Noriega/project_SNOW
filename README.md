@@ -115,6 +115,7 @@ We're looking forward to rolling-out the following features:
 <li>Full end-to-end resort reservation system with persisting of reserved dates and rendering of blackout dates.</li>
 <li>An "Accept Invite" button for community members.</li>
 <li>Ability to send and accept a friend requests.</li>
+<li>A "Chat with Friends" feature to assist with trip planning or just connecting.</li>
 <li>introduction of a "pass swap" feature where members can arrange to swap their passes for a period of time, granting them access to more ski resorts.</li>
 
 <h2>Contact</h2>
