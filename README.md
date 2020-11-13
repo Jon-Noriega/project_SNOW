@@ -1,4 +1,3 @@
-
 <h1>skiHouse</h1>
 Rally your friends, select from one of the US-Rockies' many world-reknown ski resorts, and book your priority reservation dates.
 <br></br>
