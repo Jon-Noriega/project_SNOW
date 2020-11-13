@@ -54,7 +54,6 @@ You are now ready to start using the first iteration of skiHouse<br>
 <h4>Randomize Function:</h4>
 
 ```
-
 .inner-resort-card-divs {
     position: relative;
     width: 335px;
@@ -91,7 +90,6 @@ You are now ready to start using the first iteration of skiHouse<br>
 .outer-resort-card-divs.reverse .inner-resort-card-divs {
     transform: rotateY(180deg);
 }
-
 ```
 
 <h2>Status</h2>
