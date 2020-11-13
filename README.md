@@ -5,8 +5,11 @@ Rally your friends, select from one of the US-Rockies' many world-reknown ski re
 <h2>General Info</h2>
 <p>
 We are a community of skiers/snowboarders first! Secondly, we're a platform where passholders can reserve priority access at their favorite US-Rockies ski resorts. Our mission is to:<br></br>
- - Facilitate connection amongst community members of each ski pass (Ikon/Epic).
- - Become the go-to platform for ensuring the community lock-in their priority access through our reservation system. <br>:heart:</br>
+
+<ul>
+ <li>Facilitate connection amongst community members of each ski pass (Ikon/Epic)</li>
+ <li>Become the go-to platform for ensuring the community lock-in their priority access through our reservation system.</li>
+<br>:blue_heart:</br>
 </p>
 
 <h2>Inspiration</h2>
