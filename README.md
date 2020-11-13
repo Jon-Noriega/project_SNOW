@@ -53,6 +53,47 @@ You are now ready to start using the first iteration of skiHouse<br>
 
 <h4>Randomize Function:</h4>
 
+```
+
+.inner-resort-card-divs {
+    position: relative;
+    width: 335px;
+    height: 400px;
+    transition: transform 1.8s;
+    transform-style: preserve-3d;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.front-resort-card-divs, .back-resort-card-divs {
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.back-resort-card-divs {
+    transform: rotateY(180deg);
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    width: 335px;
+    height: 400px;
+    background-color: rgb(44, 81, 248);
+    margin-top: 21px;
+    margin-bottom: 21px;
+    margin-right: 21px;
+    margin-left: 21px;
+    border-radius: 10px 50px 10px 50px;
+}
+
+.outer-resort-card-divs.reverse .inner-resort-card-divs {
+    transform: rotateY(180deg);
+}
+
+```
+
 <h2>Status</h2>
 
 We're looking forward to rolling-out the following features:
