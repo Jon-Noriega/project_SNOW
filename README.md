@@ -92,7 +92,7 @@ You are now ready to start using the first iteration of skiHouse<br>
 }
 ```
 
-<h4>Toggle Communities:</h4>
+<h4>Toggle Community View:</h4>
 
 ```
 const toggleViewButton = document.querySelector(".toggle-view-button")
