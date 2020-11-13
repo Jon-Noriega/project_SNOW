@@ -111,7 +111,7 @@ toggleViewButton.addEventListener("click", () => {
 
 We're looking forward to rolling-out the following features:
 <li>A user sign-in workflow with full end-to-end user auth.</li>
-<li>Availability calendars for our community members, allowing to coordinate a ski trip based on shared availability.</li>
+<li>Availability calendars for our community members, allowing them to coordinate a ski trip based on shared availability.</li>
 <li>Full end-to-end resort reservation system with persisting of reserved dates and rendering of blackout dates.</li>
 <li>An "Accept Invite" button for community members.</li>
 <li>Ability to send and accept a friend requests.</li>
