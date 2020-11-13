@@ -40,11 +40,12 @@ You are now ready to start using the first iteration of skiHouse<br>
 
 <h2>Instructions</h2>
 <ol>
- <li>Explore our catalog of Denver's highly-rated restaurants.</li>
- <li>If you're in a hurry & feeling spontaneous, take a chance with our mysterEAT button.</li>
- <li>Otherwise, use our search to narrow down the field of restaurant cards by cuisine.</li>
- <li>Still undecided? Allow us to help you by making a restaurant suggestion via our state-of-the-art mysterEAT feature.</li>
- <li>Interested in a different cuisine? Try searching for a new one in the top right or simply click on our logo to return to the main catalog.</li>
+ <li>Explore our member community, by ski pass. We ecourage you to connect with community members who may not already be 1st-degree connections. Make a new friend to ski with. Especially when they have the same pass as you. Don't let the passes restrict you either, you can always share a buddy pass with a member who has a different ski pass!</li>
+ <li>Invite friends to a ski trip by flipping their card and clicking on the invite button</li>
+ <li>Once you have rounded out your friend group for the upcoming trip, it's now time to find a resort to ski at. Do so by clicking on the toggle button.</li>
+ <li>Explore the resort community and once you're ready to reserve priority access to the resort of your choosing, click on the card to flip it over.</li>
+ <li>You will now see an input area which you can click on to be taken to the reservation calendar.</li>
+ <li>Select </li>
 </ol>
 
 <h2>Code Examples</h2>
