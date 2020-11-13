@@ -20,24 +20,23 @@ I was inpired to create this project by the excitement of the upcoming ski seaso
 <h2>Technologies</h2>
 
 <ul>
- <li>Ruby: version 2.6.5</li>
+ <li>Ruby: version 2.6.1</li>
  <li>Rails: version 6.0.3</li>
  <li>SQLite3: version 1.4</li>
  <li>Puma: version 4.1</li>
  <li>JavaScript: version 1.1.1</li>
  <li>JSON: version 2.3</li>
- <li>Rack CORS: version 1.1.1</li>
 </ul>
 
 <h2>Setup</h2>
-To run this project, create a folder on your local environment where you can clone the "restaurant-frontend" and "restaurant-backend" GitHub repositories. Open both in your code editor.<br><br>
+To run this project, create a folder on your local environment where you can clone the "project_SNOW" GitHub repository. Open this repository in your code editor.<br><br>
 From your backend folder perform the following commands:<br>
 <li>Use the command to install all required gems: <code>bundle install</code></li>
 <li>Use the Rails command: <code>rails db:migrate</code></li>
 <li>Seed your backend database tables using the following command: <code>rails db:seed</code></li>
 <li>Run the backend with command <code>rails s</code></li><br>
 From your frontend folder perform the following command: <code>lite-server</code><br><br>
-You are now ready to start using the first iteration of mysterEAT!<br>
+You are now ready to start using the first iteration of skiHouse<br>
 
 <h2>Instructions</h2>
 <ol>
