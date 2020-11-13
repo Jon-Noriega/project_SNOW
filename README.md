@@ -10,6 +10,7 @@ Our mission is to:
 <ul>
  <li>Facilitate connection amongst community members of each ski pass (Ikon/Epic)</li>
  <li>Become the go-to platform for ensuring the community lock-in their priority access through our reservation system.</li>
+</ul>
 </p>
 
 <h2>Inspiration</h2>
