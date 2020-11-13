@@ -18,10 +18,6 @@ Our mission is to:
  Our app was born with the sole purpose of helping you during those moments of indecisiveness.
 </p>
 
-<h2>Intro Video</h2>
-
-
-
 <h2>Technologies</h2>
 
 <ul>
@@ -43,8 +39,6 @@ From your backend folder perform the following commands:<br>
 <li>Run the backend with command <code>rails s</code></li><br>
 From your frontend folder perform the following command: <code>lite-server</code><br><br>
 You are now ready to start using the first iteration of mysterEAT!<br>
-
-<i>*Please note that some features are still a work in progress.</i>
 
 <h2>Instructions</h2>
 <ol>
