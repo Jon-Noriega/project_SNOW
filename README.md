@@ -8,14 +8,13 @@ We are a community of skiers/snowboarders first! Secondly, we're a platform wher
 Our mission is to:
 
 <li>Facilitate connection amongst community members of each ski pass (Ikon/Epic)</li>
-<li>Become the go-to platform for ensuring the community lock-in their priority access through our reservation system.</li>
+<li>Become the go-to platform for ensuring the community lock in their priority access through our reservation system.</li>
 </p>
 
 <h2>Inspiration</h2>
 
 <p>
- Have you ever found yourself in a situation where you were so hungry that everything sounds good, making it a lot harder to choose a restaurant? You're not alone!
- Our app was born with the sole purpose of helping you during those moments of indecisiveness.
+I was inpired to create this project by the excitement of the upcoming ski season. Skiing is hands down one of my favorite ways to spend a weekend. Integrating a reservation system is also very relevant given the impact that COVID-19 has had on the local ski resorts, as they pivot torwards reservation systems as a way to control traffic and ensure they continue to deliver a best-in-class quality experience to their passholders.
 </p>
 
 <h2>Technologies</h2>
