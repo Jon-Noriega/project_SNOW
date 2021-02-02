@@ -49,6 +49,9 @@ You are now ready to start using the first iteration of skiHouse<br>
  <li>You will now see details for your upcoming Ski Day which will include your invited friends along with the reserved ski resort.</li>
 </ol>
 
+![friend_invite](https://user-images.githubusercontent.com/68958970/106629387-c7dafb80-6548-11eb-9a7b-296e5cdd2b8b.gif)<br>
+![toggle_view](https://user-images.githubusercontent.com/68958970/106629411-ce697300-6548-11eb-9ba1-deb35a5bc8b4.gif)<br>
+
 <h2>Code Examples</h2>
 
 <h4>Card Flipping:</h4>
