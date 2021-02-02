@@ -49,8 +49,9 @@ You are now ready to start using the first iteration of skiHouse<br>
  <li>You will now see details for your upcoming Ski Day which will include your invited friends along with the reserved ski resort.</li>
 </ol>
 
-![friend_invite](https://user-images.githubusercontent.com/68958970/106629387-c7dafb80-6548-11eb-9a7b-296e5cdd2b8b.gif)<br>
-![toggle_view](https://user-images.githubusercontent.com/68958970/106629411-ce697300-6548-11eb-9ba1-deb35a5bc8b4.gif)<br>
+![friend_invite](https://user-images.githubusercontent.com/68958970/106630572-f1e0ed80-6549-11eb-878c-cbf901784dfd.gif)<br>
+![toggle_view](https://user-images.githubusercontent.com/68958970/106630608-fa392880-6549-11eb-8599-6fa3c0b7349a.gif)<br>
+![resort_reservation](https://user-images.githubusercontent.com/68958970/106630631-ff967300-6549-11eb-9b6a-1354b62c637a.gif)
 
 <h2>Code Examples</h2>
 
